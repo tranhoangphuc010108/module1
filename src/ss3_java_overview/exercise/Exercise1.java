@@ -3,6 +3,9 @@ package ss3_java_overview.exercise;
 import java.time.Year;
 import java.util.Scanner;
 
+/**
+ * Nhập năm sinh của một người. Tính tuổi người đó.
+ */
 public class Exercise1 { // Sai quy tac dat ten class
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

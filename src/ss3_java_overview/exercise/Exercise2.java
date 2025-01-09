@@ -2,6 +2,12 @@ package ss3_java_overview.exercise;
 
 import java.util.Scanner;
 
+/**
+ * Viết một chương trình Java để nhập vào
+ * hai số nguyên a và b từ người dùng.
+ * Sau đó, tính và hiển thị tổng, hiệu,
+ * tích và thương của hai số đó.
+ */
 public class Exercise2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
