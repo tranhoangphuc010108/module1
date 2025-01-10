@@ -20,6 +20,14 @@ public class Exercise2 {
 
         int sum = a + b;
         int difference = a - b;
+
         int product = a * b;
+        double quotient = (double) a/b;
+
+        System.out.println("Tổng: " + sum);
+        System.out.println("Hiệu: " + difference);
+
+        System.out.println("Tích: " + product);
+        System.out.println("Thương: " + quotient);
     }
 }
