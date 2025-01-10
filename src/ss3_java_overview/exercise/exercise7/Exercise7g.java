@@ -1,4 +1,4 @@
-package ss3_java_overview.exercise;
+package ss3_java_overview.exercise.exercise7;
 
 public class Exercise7g {
     public static void main(String[] args) {
