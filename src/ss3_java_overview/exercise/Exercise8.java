@@ -1,4 +1,4 @@
 package ss3_java_overview.exercise;
 
-public class Exercise3 {
+public class Exercise8 {
 }
