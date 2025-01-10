@@ -4,29 +4,28 @@ import java.util.Scanner;
 
 public class Exercise4 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Nhập vào điểm toán: ");
-        double diemToan = scanner.nextDouble();
+        double mathScores = scanner.nextDouble();
 
         System.out.print("Nhập vào hệ số toán: ");
-        double hsToan = scanner.nextDouble();
+        double hsmath = scanner.nextDouble();
 
         System.out.print("Nhập vào điểm lý: ");
-        double diemLy = scanner.nextDouble();
+        double physicalPoint = scanner.nextDouble();
 
         System.out.print("Nhập vào hệ số lý: ");
-        double hsLy = scanner.nextDouble();
+        double hsphysical = scanner.nextDouble();
 
         System.out.print("Nhập vào điểm hóa: ");
-        double diemHoa = scanner.nextDouble();
+        double chemistryPoint = scanner.nextDouble();
 
         System.out.print("Nhập vào hệ số hóa: ");
-        double hsHoa = scanner.nextDouble();
+        double hschemistry = scanner.nextDouble();
 
-        double diemTB = (diemToan * hsToan + diemLy * hsLy + diemHoa * hsHoa) / (hsToan + hsLy + hsHoa);
-        System.out.println("DiemTB: " + diemTB);
+        double averageScore = (mathScores * hsmath + physicalPoint * hsphysical + chemistryPoint * hschemistry) / (hsmath + hsphysical + hschemistry);
+        System.out.println("DiemTB: " + averageScore);
 
     }
 }

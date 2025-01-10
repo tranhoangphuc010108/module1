@@ -1,26 +1,25 @@
 package ss3_java_overview.exercise;
 
 import java.util.Scanner;
-
 public class Exercise3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Nhập tên sản phẩm: ");
-        String TenSanPham = scanner.nextLine();
+        String productName = scanner.nextLine();
 
         System.out.print("Nhập số lượng: ");
-        int SoLuong = scanner.nextInt();
+        int amount = scanner.nextInt();
 
         System.out.print("Nhập đơn giá: ");
-        double DonGia = scanner.nextDouble();
+        double unitPrice = scanner.nextDouble();
 
-        double Tien = SoLuong * DonGia;
-        double ThueGTGT = 0.1 * Tien;
+        double money = amount * unitPrice;
+        double dutyGTGT = 0.1 * money;
 
-        System.out.println("Tên sản phẩm: " + TenSanPham);
-        System.out.println("Tiền: " + Tien);
-        System.out.println("Thuế GTGT: " + ThueGTGT);
+        System.out.println("Tên sản phẩm: " + productName);
+        System.out.println("Tiền: " + money);
+        System.out.println("Thuế GTGT: " + dutyGTGT);
 
 
 
