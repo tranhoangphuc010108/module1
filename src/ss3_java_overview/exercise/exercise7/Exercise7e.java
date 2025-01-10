@@ -1,5 +1,8 @@
 package ss3_java_overview.exercise.exercise7;
-
+/**
+ *e.    int i = 1, j = 1;
+ * int a = i++ + j++ + i++ + j++;
+ */
 public class Exercise7e {
     public static void main(String[] args) {
         int i = 1,j = 1;

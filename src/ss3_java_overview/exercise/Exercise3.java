@@ -1,6 +1,13 @@
 package ss3_java_overview.exercise;
 
 import java.util.Scanner;
+
+/**
+ * Nhập tên sản phẩm, số lượng và đơn giá. Tính tiền và thuế giá trị gia tăng phải trả, biết:
+ * a. tiền = số lượng * đơn giá
+ * b. thuế giá trị gia tăng = 10%
+ */
+
 public class Exercise3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,12 +27,5 @@ public class Exercise3 {
         System.out.println("Tên sản phẩm: " + productName);
         System.out.println("Tiền: " + money);
         System.out.println("Thuế GTGT: " + dutyGTGT);
-
-
-
-
-
-
-
     }
 }

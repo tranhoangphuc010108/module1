@@ -2,6 +2,11 @@ package ss3_java_overview.exercise;
 
 import java.util.Scanner;
 
+/**
+ * Nhập vào số xe của bạn (Gồm tối đa 5 chữ
+ * số). Cho biết số xe của bạn được mấy nút?
+ */
+
 public class Exercise6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,12 +31,5 @@ public class Exercise6 {
         int buttonNumber = sum % 10;
 
         System.out.println("Số nút: " + buttonNumber);
-
-
-
-
-
-
-
     }
 }
