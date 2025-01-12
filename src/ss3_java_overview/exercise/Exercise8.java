@@ -7,7 +7,6 @@ package ss3_java_overview.exercise;
  * System.out.println(i++);
  * System.out.println(++i);
  */
-
 public class Exercise8 {
     public static void main(String[] args) {
         int i = 2;

@@ -9,7 +9,6 @@ import java.util.Scanner;
  * Chu vi: C = 2 * π * r
  * Diện tích: A = π * r²
  */
-
 public class Exercise5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
