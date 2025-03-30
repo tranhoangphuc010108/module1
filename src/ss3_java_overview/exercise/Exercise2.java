@@ -12,10 +12,10 @@ public class Exercise2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Nhập số a: ");
+        System.out.println("Nhập số nguyên dương a: ");
         int a = scanner.nextInt();
 
-        System.out.println("Nhập số b: ");
+        System.out.println("Nhập số nguyên dương b: ");
         int b = scanner.nextInt();
 
         int sum = a + b;
