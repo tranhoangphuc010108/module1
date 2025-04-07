@@ -1,6 +1,7 @@
 package bài_41_60;
 
 import java.util.Scanner;
+
 /**
  * Bài 56: Hãy kiểm tra số nguyên dương n có toàn chữ số lẻ hay không
  */

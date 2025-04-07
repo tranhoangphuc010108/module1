@@ -26,11 +26,11 @@ public class Exercise18 {
         double sum = 1.0;
 
         long factorial = 1;
-
+        double power = 1.0;
         for (int i = 1; i <= n; i++) {
-            int exponent = 2 * i;
-            factorial *= (2 * i - 1) * (2 * i);
-            sum += Math.pow(x, exponent) / factorial; // Cộng vào tổng
+            power *= x * x;
+            factorial *= (2 * i) * (2 * i - 1);
+            sum += power / factorial;
         }
 
         // In kết quả

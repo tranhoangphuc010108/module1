@@ -23,14 +23,13 @@ public class Exercise19 {
         } while (n <= 0);
 
         // Khởi tạo tổng
-        double sum = 1.0;
-
+        double sum = 1.0 + x;
         long factorial = 1;
-        int exponent = 1;
-        for (int i = 0; i <= n; i++) {
-            sum += Math.pow(x, exponent) / factorial; // Cộng vào tổng
-            exponent = 2 * (i + 1) + 1;
-            factorial *= (2 * (i + 1)) * (2 * (i + 1) + 1);
+        double power = x;
+        for (int i = 1; i <= n; i++) {      // Cộng vào tổng
+          power *= x * x;
+          factorial *= (2 * i + 1) * (2 * i);
+          sum += power / factorial;
         } // x^(2n+1)/(2n+1)!
         /*
         1 + x + x^3/3!

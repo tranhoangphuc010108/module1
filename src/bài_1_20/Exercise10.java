@@ -22,13 +22,20 @@ public class Exercise10 {
         System.out.println("Nhập vào  n: ");
         n = scanner.nextInt();
 
-        // X * X * X
+// X * X * X
 
-        long result = x; //Math.pow(x, n) là phương thức tính lũy thừa x^n của Java
-        for(int i = 1; i < n; i++) {
-            result *= x; // x * x * x
+        double result = 1; //Math.pow(x, n) là phương thức tính lũy thừa x^n của Java
+
+        if (n < 0) {
+            for (int i = 0; i < -n; i++) {
+                result *= x;
+            }
+            result = 1.0 / result;
+        } else {
+            for (int i = 0; i < n; i++) {
+                result *= x; // x * x * x
+            }
         }
-
         System.out.println(" T(x, n) = " + result);
         scanner.close();
     }

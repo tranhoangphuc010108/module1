@@ -32,9 +32,13 @@ public class Exercise36 {
     }
 
     public static double tinhS(int n) {
-        if (n == 1) {
-            return 1;
+        double s = 0;
+        long giaiThua = 1;
+
+        for (int i = 1; i <= n; i++) {
+            giaiThua *= i;  // Tính giai thừa dần dần
+            s = Math.sqrt(giaiThua + s);
         }
-        return Math.sqrt(tinhGiaiThua(n) + tinhS(n - 1));
+        return s;
     }
 }

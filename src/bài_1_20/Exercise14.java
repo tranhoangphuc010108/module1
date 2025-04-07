@@ -22,7 +22,7 @@ public class Exercise14 {
 
         int sum = 0;
         int  power  = x ;
-        for (int i = 1; i <= n + 1; i++) {
+        for (int i = 0; i <= n; i++) {
             sum += power;
             power *= x * x;
         }

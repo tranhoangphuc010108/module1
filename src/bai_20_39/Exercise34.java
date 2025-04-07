@@ -17,7 +17,7 @@ public class Exercise34 {
             System.out.println("Nhập vào số nguyên dương n(n>0). vui lòng nhập lại! ");
         } else {
             double result = tinhS(n);
-            System.out.println("Giá trị của S(" + n + ") = " + result);
+            System.out.printf("Giá trị của S.(%d) = %.6f\n", n, result);
         }
 
         scanner.close();

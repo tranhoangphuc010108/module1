@@ -26,9 +26,11 @@ public class Exercise16 {
 
         double sum = 0;
         int denominator = 0;
+        double power = 1.0;
         for (int i = 1; i <= n; i++) {
             denominator += i;
-            sum += Math.pow(x, i) / denominator; // lũy thừa:x^i
+           power *= x;
+           sum += power / denominator;
 
 
         }

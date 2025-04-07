@@ -16,7 +16,7 @@ public class Exercise33 {
             System.out.println("Vui lòng nhập n >= 1.");
         } else {
             double result = tinhS(n);
-            System.out.println("Giá trị của S(" + n + ") = " + result);
+            System.out.printf("Giá trị của S(%d) = %.6f\n", n, result);
         }
 
         scanner.close();

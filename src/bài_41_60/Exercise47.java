@@ -17,18 +17,18 @@ public class Exercise47 {
             System.out.println("Vui lòng nhập một số nguyên dương.");
         } else {
 
-            int count = 0;
+            int sum = 0;
             int temp = n;
 
             while (temp > 0) {
                 int digit = temp % 10;
                 if (digit % 2 == 0) {
-                    count++;
+                    sum += digit;
                 }
                 temp /= 10;
             }
 
-            System.out.println("Số lượng chữ số lẻ trong " + n + " là: " + count);
+            System.out.println("Số lượng chữ số lẻ trong " + n + " là: " + sum);
         }
 
         scanner.close();
